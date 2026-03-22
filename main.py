@@ -21,7 +21,7 @@ def main():
     # instanciamos las variables previamente definidas
     sim = Simulacion(procesos_iniciales=procesos_lista, memoria=memoria_inicial, quantum=2)
     
-    # 🚀 4. INICIAR (Generando cache de pasos hacia listado interactivo)
+    # iniciamos con la generacion
     pasos = sim.generar()
     print(f"✅ {len(pasos)} pasos de máquina fueron generados localmente. Lanzando Interfaz interactiva…\n")
     
